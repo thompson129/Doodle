@@ -31,7 +31,7 @@ export const HomeContent = () => {
           <div className='flex items-center justify-center md:flex-col'>
             <div className='left w-1/2 text-black md:w-full'>
               <h1 className='text-4xl leading-tight text-black font-semibold'>
-                 your <br /> Own online learning <br /> Platform
+                 your <br /> Own education website <br /> Platform
               </h1>
               <h3 className='text-lg mt-3'>Unlimited access to all 60+ instructors.</h3>
               <span className='text-[14px]'>2 passes (with access to all classes) for $240</span>
