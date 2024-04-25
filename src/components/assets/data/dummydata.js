@@ -11,17 +11,17 @@ export const LinkData = [
   },
   {
     id: 3,
-    title: "courses",
+    title: "CIIE",
     url: "/courses",
   },
   {
     id: 4,
-    title: "Instructor",
+    title: "Test Center",
     url: "/instructor",
   },
   {
     id: 5,
-    title: "blog",
+    title: "Contact",
     url: "/blog",
   },
 ]

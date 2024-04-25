@@ -31,20 +31,10 @@ export const HomeContent = () => {
           <div className='flex items-center justify-center md:flex-col'>
             <div className='left w-1/2 text-black md:w-full'>
               <h1 className='text-4xl leading-tight text-black font-semibold'>
-                 your <br /> Own education website <br /> Platform
+                 Doodle Education <br /> For Every Learner<br />
               </h1>
-              <h3 className='text-lg mt-3'>Unlimited access to all 60+ instructors.</h3>
-              <span className='text-[14px]'>2 passes (with access to all classes) for $240</span>
-
-              <div className='relative text-gray-600 focus-within:text-gray-400 mt-5'>
-                <input type='search' className='py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none ' placeholder='Search...' autocomplete='off' />
-                <span className='absolute inset-y-0 left-0 flex items-center pl-2'>
-                  <button type='submit' className='p-1 focus:outline-none focus:shadow-outline'>
-                    <FiSearch />
-                  </button>
-                </span>
-              </div>
-              <span className='text-[14px]'>You`re guaranteed to find something that`s right for you.</span>
+              <h3 className='text-lg mt-3'>accessible programs, courseware and learning solutions to expand educational opportunities</h3>
+              <span className='text-[14px]'>Ensuring that the learners from all walks of life regardless of race or background are equipped and inspired to learn.</span>
             </div>
             <div className='right w-1/2 md:w-full relative'>
               <div className='images relative'>

@@ -12,12 +12,9 @@ export const Header = () => {
       <header className='bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full'>
         <div className='container flex justify-between items-center'>
           <div className='logo flex items-center gap-6'>
-            <img src={LogoImg} alt='logo' className='h-5' />
-            <div className='category flex items-center text-sm gap-3'>
-              <HiViewGrid size={20} />
-              <span>category</span>
-            </div>
+            <img src={LogoImg} alt='logo' className='h-10' />
           </div>
+
           <nav className={open ? "mobile-view" : "desktop-view"}>
             <ul className='flex items-center gap-6'>
               {LinkData.map((link) => (
@@ -29,11 +26,8 @@ export const Header = () => {
               ))}
             </ul>
           </nav>
-          <div className='account flex items-center gap-5'>
-            <button>
-              <BiShoppingBag size={25} />
-            </button>
-            <button>Login</button>{" "}
+          
+          <div className='account flex items-center gap-5'>           
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>
