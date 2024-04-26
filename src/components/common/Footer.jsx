@@ -1,6 +1,5 @@
 import React from "react"
 import logImg from "../assets/images/logo-black.png"
-import { BsApple, BsGooglePlay } from "react-icons/bs"
 import { NavLink } from "react-router-dom"
 
 export const Footer = () => {
@@ -9,18 +8,13 @@ export const Footer = () => {
       <section className='app w-4/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10'>
         <div className='left w-[60%] md:w-full p-10'>
           <h1 className='text-4xl font-semibold leading-tight'>
-            Start learning by <br /> Downloading Apps.
+            Get in touch
           </h1>
+          <span className='text-[14px]'>Office: 2 Moonmuang Road, Lane 8, Muang, Chaing Mai 50100</span><br/>
+          <span className='text-[14px]'>Email: office@doodle.tech</span><br/>
+          <span className='text-[14px]'>Phone: +66(0)66-2835-1998</span>
         </div>
         <div className='right w-[40%] md:w-full flex items-center px-5 rounded-r-lg rounded-bl-[500px] gap-8 bg-[#FF7C54] md:bg-transparent md:p-8'>
-          <div className='box flex gap-2 items-center px-5 py-3 border text-white border-gray-50 hover:bg-white hover:text-black shadow-shadow1 rounded-sm'>
-            <BsApple />
-            <label className='text-sm'>App Store</label>
-          </div>
-          <div className='box flex gap-2 items-center px-5 py-3 bg-white text-black shadow-shadow1 rounded-sm'>
-            <BsGooglePlay />
-            <label className='text-sm'>Play Store</label>
-          </div>
         </div>
       </section>
       <footer className='bg-[#F3F4F8] py-10 pt-32 -mt-24'>
