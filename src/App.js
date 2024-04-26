@@ -4,7 +4,7 @@ import { Home } from "./pages/Home"
 import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
 import { Offices } from "./pages/Offices"
-import { Instructor } from "./pages/Instructor"
+import { Partners } from "./pages/Partners"
 
 function App() {
   return (
@@ -36,10 +36,10 @@ function App() {
             }
           />
           <Route
-            path='/instructor'
+            path='/partners'
             element={
               <Layout>
-                <Instructor />
+                <Partners />
               </Layout>
             }
           />

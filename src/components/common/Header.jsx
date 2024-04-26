@@ -2,8 +2,7 @@ import React, { useState } from "react"
 import LogoImg from "../assets/images/logo-black.png"
 import { LinkData } from "../assets/data/dummydata"
 import { NavLink } from "react-router-dom"
-import { BiShoppingBag } from "react-icons/bi"
-import { HiOutlineMenuAlt1, HiViewGrid } from "react-icons/hi"
+import { HiOutlineMenuAlt1,} from "react-icons/hi"
 
 export const Header = () => {
   const [open, setOpen] = useState(false)

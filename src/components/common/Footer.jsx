@@ -1,7 +1,9 @@
 import React from "react"
 import { FaFacebook } from "react-icons/fa"
+import logImg from "../assets/images/logo-black.png"
 
 export const Footer = () => {
+  const currentYear=new Date().getFullYear();
   return (
     <>
       <section className='app w-4/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10'>
@@ -20,7 +22,10 @@ export const Footer = () => {
           </div>
       </section>
       <footer className='bg-[#F3F4F8] py-10 pt-32 -mt-24'>
-        <div className='container grid grid-cols-4 gap-5 md:grid-cols-2'>
+        <div className='container grid grid-cols-3 gap-5 md:grid-cols-2'>
+          <p className="copyright">
+          <img src={logImg} alt="logImg" className="h-5"/>© {currentYear} Doodle Co., All Rights Reserved.
+          </p>
         </div>
       </footer>
     </>

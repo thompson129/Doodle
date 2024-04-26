@@ -5,7 +5,7 @@ import { BsFillLightningChargeFill } from "react-icons/bs"
 import { FaBookReader, FaGraduationCap, FaUsers } from "react-icons/fa"
 import { About } from "./About"
 import { Courses } from "./Courses"
-import { Instructor } from "./Instructor"
+import { Partners } from "./Partners"
 import { Offices } from "./Offices"
 
 export const Home = () => {
@@ -17,7 +17,7 @@ export const Home = () => {
       <br />
       <br />
       <Courses />
-      <Instructor />
+      <Partners />
       <Offices />
     </>
   )
