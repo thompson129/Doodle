@@ -1,13 +1,12 @@
 import React from "react"
 import heroImg from "../components/assets/images/hero.png"
 import heroImgback from "../components/assets/images/hero-shape-purple.png"
-import { FiSearch } from "react-icons/fi"
 import { BsFillLightningChargeFill } from "react-icons/bs"
 import { FaBookReader, FaGraduationCap, FaUsers } from "react-icons/fa"
 import { About } from "./About"
 import { Courses } from "./Courses"
 import { Instructor } from "./Instructor"
-import { Blog } from "./Blog"
+import { Offices } from "./Offices"
 
 export const Home = () => {
   return (
@@ -19,7 +18,7 @@ export const Home = () => {
       <br />
       <Courses />
       <Instructor />
-      <Blog />
+      <Offices />
     </>
   )
 }

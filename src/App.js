@@ -1,10 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Layout } from "./components/common/Layout"
 import { Home } from "./pages/Home"
-import { BlogSinglePage } from "./components/common/BlogSinglePage"
 import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
-import { Blog } from "./pages/Blog"
+import { Offices } from "./pages/Offices"
 import { Instructor } from "./pages/Instructor"
 
 function App() {
@@ -45,18 +44,10 @@ function App() {
             }
           />
           <Route
-            path='/blog'
+            path='/offices'
             element={
               <Layout>
-                <Blog />
-              </Layout>
-            }
-          />
-          <Route
-            path='/single-blog'
-            element={
-              <Layout>
-                <BlogSinglePage />
+                <Offices />
               </Layout>
             }
           />
