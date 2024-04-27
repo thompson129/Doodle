@@ -1,9 +1,4 @@
 import React from "react";
-import aboutImg from "../components/assets/images/about.jpg";
-import aboutImgBanner from "../components/assets/images/about-banner.jpg";
-import imgs from "../components/assets/images/join1.png";
-import { FaBookDead, FaLandmark } from "react-icons/fa";
-import { AiOutlineCheck } from "react-icons/ai";
 
 export const About = () => {
   return (
