@@ -8,7 +8,7 @@ export const Offices = () => {
         <div className='w-4/5 m-auto'>
           <div className='heading text-center py-12'>
             <h1 className='text-3xl font-semibold text-black'>
-              Our Offices
+              <span className="border-b-2 border-black pb-2">Our Offices</span>
             </h1>
           </div>
           <div className="grid grid-cols-3 gap-4">
