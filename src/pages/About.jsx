@@ -5,7 +5,7 @@ export const About = () => {
     <>
         <div className="container">
           <div className="heading text-center py-12">
-            <h1 className="text-4xl font-semibold text-black">The Journey</h1>
+            <h1 className="text-4xl font-semibold text-black"><span style={{color: '#142F61'}}>The Journey</span></h1>
           </div>
         </div>
       <AboutContent />
@@ -28,7 +28,7 @@ export const AboutCard = (props) => {
 
 export const AboutContent = () => {
   return (
-    // <section className="mb-16 w-full">
+    <section className="mb-16 w-full">
       <div className="container flex md:flex-col">
         <div className="right w-full md:w-full md:mt-full the flex justify-between">
           <div className="heading w-full md:w-full mx-5 md:mx-0">
@@ -49,7 +49,7 @@ export const AboutContent = () => {
               </svg>
 
               <h1 className="text-2xl font-semibold text-black mx-10">
-                Year 1/ Founding
+                <span style={{color: '#142F61'}}>Year 1/ Founding</span>
               </h1>
             </div>
 
@@ -90,7 +90,7 @@ export const AboutContent = () => {
               </svg>
 
               <h1 className="text-2xl font-semibold text-black mx-10">
-                Year 2/ Expanding
+                <span style={{color: '#142F61'}}>Year 2/ Expanding</span>
               </h1>
             </div>
 
@@ -127,7 +127,7 @@ export const AboutContent = () => {
               </svg>
 
               <h1 className="text-2xl font-semibold text-black mx-10">
-                Year 3/ Optimizing
+                <span style={{color: '#142F61'}}>Year 1/ Optimizing</span>
               </h1>
             </div>
 
@@ -146,6 +146,6 @@ export const AboutContent = () => {
           </div>
         </div>
       </div>
-    // </section>
+    </section>
   );
 };
