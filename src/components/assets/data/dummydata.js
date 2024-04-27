@@ -43,6 +43,10 @@ export const tcenter = [
   {
     id: 1,
     cover: "../images/ged.png",
+  }, 
+  {
+    id: 2,
+    cover: "../images/gedcenter.jpeg",
   }
 ]
 export const offices=[
