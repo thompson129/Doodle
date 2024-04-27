@@ -2,7 +2,7 @@ import React from "react"
 import aboutImg from "../components/assets/images/about.jpg"
 import aboutImgBanner from "../components/assets/images/about-banner.jpg"
 import imgs from "../components/assets/images/join1.png"
-import { FaBookDead } from "react-icons/fa"
+import { FaBookDead, FaLandmark } from "react-icons/fa"
 import { AiOutlineCheck } from "react-icons/ai"
 
 export const About = () => {
@@ -11,14 +11,13 @@ export const About = () => {
       <section className='about py-16'>
         <div className='container'>
           <div className='heading text-center py-12'>
-            <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+            <h1 className='text-3xl font-semibold text-black'>The Journey</h1>
           </div>
-          <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
-            <AboutCard color='bg-[#2D69F0]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#DD246E]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#8007E6]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
-            <AboutCard color='bg-[#0CAE74]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
+
+          <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2 mx-auto'>
+            <AboutCard color='bg-[#2D69F0]' icon={<FaBookDead size={50} />} title='Year 1' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#DD246E]' icon={<FaBookDead size={50} />} title='Year 4' desc="You don't have to struggle alone, you've " />
+            <AboutCard color='bg-[#8007E6]' icon={<FaBookDead size={50} />} title='Year 7' desc="You don't have to struggle alone, you've " />
           </div>
         </div>
       </section>

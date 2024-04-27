@@ -49,7 +49,7 @@ export const HomeContent = () => {
                     <BsFillLightningChargeFill size={25} />
                   </div>
                   <div className='text flex flex-col items-start px-4'>
-                    <span className='text-sm text-black'>Congrstulations</span>
+                    <span className='text-sm text-black'>Congratulations</span>
                     <span className='text-[12px]'>Your admission completed</span>
                   </div>
                 </button>
