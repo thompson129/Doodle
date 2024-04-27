@@ -17,7 +17,7 @@ export const LinkData = [
   {
     id: 4,
     title: "Test Center",
-    url: "/instructor",
+    url: "/testcenter",
   },
   {
     id: 5,
@@ -38,6 +38,12 @@ export const testcenter = [
     cover: "../images/course-4-1.jpg",
     title: "Pathway to Higher Education",
   },
+]
+export const tcenter = [
+  {
+    id: 1,
+    cover: "../images/ged.png",
+  }
 ]
 export const offices=[
   {

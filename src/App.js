@@ -5,6 +5,7 @@ import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
 import { Offices } from "./pages/Offices"
 import { Partners } from "./pages/Partners"
+import { TCenter } from "./pages/TestCenter"
 
 function App() {
   return (
@@ -48,6 +49,14 @@ function App() {
             element={
               <Layout>
                 <Offices />
+              </Layout>
+            }
+          />
+          <Route
+            path='/testcenter'
+            element={
+              <Layout>
+                <TCenter />
               </Layout>
             }
           />

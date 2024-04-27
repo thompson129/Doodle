@@ -58,7 +58,7 @@ export const AboutContent = () => {
               </h1>
             </div>
 
-            <span className="text-sm w-full mt-2 block leading-6">
+            <span className="text-sm w-full mt-2 block leading-6 text-justify">
               {" "}
               Doodle Co., Ltd. was originally founded in Myanmar since 2017 as
               the sister company of Myanmar, Hand In Hand Marketing Services Co.,
@@ -99,7 +99,7 @@ export const AboutContent = () => {
               </h1>
             </div>
 
-            <span className="text-sm mt-2 block leading-6">
+            <span className="text-sm mt-2 block leading-6 text-justify">
               {" "}
               In 2021, Doodle launched its very first overseas branch office in
               the city of so-called “Education Hub of CLMVT” countries _ Chiang
@@ -135,8 +135,8 @@ export const AboutContent = () => {
                 <span style={{color: '#142F61'}}>Year 1/ Optimizing</span>
               </h1>
             </div>
-
-            <span className="text-sm mt-2 block leading-6">
+            
+            <span className="text-sm mt-2 block leading-6 text-justify">
               {" "}
               In addition to higher-education programs, Doodle is expanding its
               education programs into Basic Education Segment and University
