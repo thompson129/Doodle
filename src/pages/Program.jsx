@@ -71,7 +71,7 @@ export const Courses = () => {
                   to="/"
                   className="flex items-center justify-between border-t border-gray-200 p-3"
                 >
-                  <NavLink className="text-[14px] ml-2 flex items-center">
+                  <NavLink to="/testcenter" className="text-[14px] ml-2 flex items-center">
                     Expore More <HiOutlineArrowNarrowRight />
                   </NavLink>
                 </div>

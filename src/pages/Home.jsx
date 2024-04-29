@@ -4,7 +4,7 @@ import heroImgback from "../components/assets/images/hero-shape-purple.png"
 import { BsFillLightningChargeFill } from "react-icons/bs"
 import { FaBookReader, FaGraduationCap, FaUsers } from "react-icons/fa"
 import { About } from "./About"
-import { Courses } from "./Courses"
+import { Courses } from "./Program"
 import { Partners } from "./Partners"
 import { Offices } from "./Offices"
 
