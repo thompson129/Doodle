@@ -28,14 +28,14 @@ export const LinkData = [
 export const courses = [
   {
     id: 1,
-    cover: "../images/course-2-1.jpg",
+    cover: "../images/ciie.png",
     title: "Innovation & Entrepreneurship",
   },
 ]
 export const testcenter = [
   {
     id: 1,
-    cover: "../images/course-4-1.jpg",
+    cover: "../images/ged.png",
     title: "Pathway to Higher Education",
   },
 ]
