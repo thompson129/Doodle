@@ -5,7 +5,7 @@ export const About = () => {
     <>
         <div className="container">
           <div className="heading text-center py-12">
-            <h1 className="text-4xl font-semibold text-black"><span style={{color: '#142F61'}}>The Journey</span></h1>
+            <h1 className="text-4xl font-semibold text-black"><span className="border-b-2 border-black pb-2" style={{color: '#142F61'}}>The Journey</span></h1>
           </div>
         </div>
       <AboutContent />

@@ -9,7 +9,9 @@ export const Courses = () => {
       <section className="courses bg-[#F3F4F8] py-16 ">
         <div className="w-4/5 m-auto">
           <div className="heading mb-16">
-            <h1 className="text-3xl font-semibold text-black">Programs</h1>
+            <h1 className="text-3xl font-semibold text-black">
+            <span className="border-b-2 border-black pb-2">Programs</span>
+            </h1>
           </div>
           <div className="grid grid-cols-3 gap-8 md:grid-cols-1">
             {courses.map((item) => (
